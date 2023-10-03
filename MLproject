@@ -1,5 +1,7 @@
 name: nyc_airbnb
-conda_env: conda.yml
+
+docker_env:
+  image: nyc_airbnb_dev
 
 entry_points:
   main:
